@@ -1,0 +1,62 @@
+<!-- default -->
+<script type="application/x-moraso" src="Navigation:main">
+	template = main
+</script>
+<script type="application/x-moraso" src="Navigation:main">
+	template = phone
+</script>
+
+<div class="feature background-wide">
+<div class="gallery-detail">
+	<div class="slide-feature">
+		<div class="rslides_container" style="height: 600px;">
+        
+        <div id="centered">
+        
+            <!--This is the clock-->
+            <div id="analog-clock" ></div>
+            <!--end clock-->
+            
+        </div>
+        
+        
+		<!--Configure your clock-->
+		<script type="text/javascript">
+			var config = {
+    	/*the name of the div containing the clock*/
+        divId: "analog-clock",
+        		        
+        /*set to false if you don't want to use the second hand*/		
+        useSecondHand: "true",
+        
+        /*width and height of the clock*/
+        clockWidthAndHeight: "400",
+        	
+        /*location of the images*/
+        clockFaceImg: "/skin/images/clock/clockBg1.png",
+        hourHandImg: "/skin/images/clock/hourHandHighRes.png",
+        minuteHandImg: "/skin/images/clock/minuteHandHighRes.png",
+        secondHandImg: "/skin/images/clock/secondHandHighRes.png", 
+        /*location of the high res images for retina display*/
+        clockFaceHighResImg: "/skin/images/clock/clockBgHighRes.png",
+        hourHandHighResImg: "/skin/images/clock/hourHandHighRes.png",
+        minuteHandHighResImg: "/skin/images/clock/minuteHandHighRes.png",
+        secondHandHighResImg: "/skin/images/clock/secondHandHighRes.png", 
+        		
+        /*Set true to make hand move at steady speed*/
+        smoothRotation: "true",
+        		
+        /*speed of the second hand. Lower is faster. */
+        /*Must be under 1000. */
+        /*If smooth rotation is true, this does nothing.*/
+        secondHandSpeed: "100"
+        		        		
+        };
+        	
+        var myAnalogClock = new AnalogClock(config);
+        </script>
+        <!--end clock configure-->
+        </div><!--Slide:Container-->
+	</div><!--Slide:Feature-->
+</div>	
+</div><!--Feature-->	

@@ -1,0 +1,36 @@
+/* Unchanged */
+/* Work - Page */
+
+.work .feature h3 { 
+}
+
+.work .main h2 { 
+	font-size: 3em;
+}
+
+.work .main dl {
+	margin: 0 0 10px 0;	
+}
+
+.work .main dl:last-child {
+	margin: 0;
+}
+
+.work .main dt {
+	font-family: BrandonGrotesqueBoldRegular, Helvetica, Arial, sans-serif;	
+	font-size: 1em; 
+	line-height: 22px;	
+	text-transform: uppercase;	
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 0 20px 0 0;
+	vertical-align: top;
+}
+
+.work .main dd {	
+	width: 69%;
+	font-size: 1.2em;
+	color: #666;
+	line-height: 22px;
+	display: inline-block;
+}

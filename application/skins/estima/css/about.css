@@ -1,0 +1,59 @@
+/* Unchanged */
+/* About */
+
+.about .main .founders .photo {
+	float: left;	
+}
+
+.about .main .founders .bio {
+	width:78%;
+	float: right;
+}
+
+
+@media only screen and (min-width:1200px) {
+.about .main .founders .bio {
+	width:82%;
+}
+}
+
+/* Tablet: Minus - 959px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.about .main .founders .bio {
+	width:75%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.about .main .founders .bio {
+	width:70%;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.about .main .founders .bio {
+	width:80%;
+}
+}
+
+.about .main .social {
+	display: inline-block;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+
+.about .main .social li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+.about .main .social .icon {
+	color: #bbb;
+}
+
+.about .main .social .icon:hover {
+	color: #666;
+}
+
+

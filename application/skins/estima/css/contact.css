@@ -1,0 +1,33 @@
+/* Unchanged */
+/* Contact */
+
+.contact .directions:after {
+	font-size: 40px;
+	color: #fff;
+	padding: 0 0 0 15px;	
+   	vertical-align: top;
+   	content: "\E728";    	
+}
+
+.contact .social {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.contact .social li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+.contact .social .icon {
+	font-size: 50px;
+	color: #bbb;
+}
+
+.contact .social .icon:hover {
+	color: #666;
+}
+
+

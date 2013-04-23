@@ -1,0 +1,19 @@
+<!-- block1 -->
+<?php foreach ($this->articles as $article) : ?>
+<div style="overflow: hidden; min-height:200px;  border-top: 2px dotted #d7d7d7; padding: 30px 0;">
+	<div class="grid_3 column">
+		<img src="/image/200/200/0/<?php echo $article->idart; ?>/<?php echo $article->mainimage; ?>">
+	</div>
+	<div class="grid_6 column main">
+	
+        <h3><?php echo $article->pagetitle; ?></h3>
+        <br /><br />
+        <?php echo strip_tags($article->col1Content, '<br><br /><p>'); ?>
+    </div>
+    <div class="grid_3 column main">
+		<h3><?php echo $article->col2head; ?></h3>
+		<br /><br />
+        <?php echo strip_tags($article->col2Content, '<br><br /><p>'); ?>
+	</div>
+</div>		   
+<?php endforeach; ?>

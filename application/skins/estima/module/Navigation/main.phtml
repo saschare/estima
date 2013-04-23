@@ -1,0 +1,16 @@
+<!-- main -->
+<div class="main-menu dark">
+<div class="row">
+	<div class="grid_2">
+		<a href="<?php echo Aitsu_Registry::get()->env->langName; ?>/" rel="tooltip" title="Home" data-placement="right" class="logo icon tip"><img src="/skin/images/estima-logo.png" alt="Estima AG"></a>
+		<a class="spring show-phone"></a>
+	</div><!-- 2 -->
+	<div class="grid_10 right hide-phone">
+		<ul id="main-menu" class="menu-side">
+			<?php $i=1; foreach ($this->nav as $nav) : ?>
+			<li class="menu-item menu-item-type-post_type_archive menu-item-object-about <?php if ($nav->isParent || $nav->isCurrent) : ?>current-menu-item<?php endif; ?> menu-item-<?php echo $nav['idcat']; ?>"><a href="{ref:idcat-<?php echo $nav['idcat']; ?>}"><?php echo $nav['name']; ?></a></li>
+			<?php $i++; endforeach; ?>
+		</ul>		
+	</div><!-- 10 -->
+</div><!-- Row -->
+</div><!-- Main Menu -->

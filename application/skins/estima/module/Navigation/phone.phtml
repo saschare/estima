@@ -1,0 +1,16 @@
+<!-- phone -->
+<div class="show-phone">
+<div class="mobile-menu">
+	<div class="row">
+		<div class="grid_12 springBox">
+			<div class="grid_10 right hide-phone">
+				<ul id="mobile-menu" class="menu-down">
+				<?php $i=1; foreach ($this->nav as $nav) : ?>
+					<li id="menu-item-<?php echo $nav['idcat']; ?>" class="menu-item menu-item-type-post_type_archive menu-item-object-about current-menu-item menu-item-<?php echo $nav['idcat']; ?>"><a href="{ref:idcat-<?php echo $nav['idcat']; ?>}"><?php echo $nav['name']; ?></a></li>
+				<?php $i++; endforeach; ?>
+				</ul>		
+			</div><!-- 10 -->
+		</div><!-- 12 -->
+	</div><!-- Row -->
+</div><!-- Mobile Menu -->
+</div><!-- Show Phone -->
