@@ -1,16 +1,22 @@
-<div class="row">
-    <div class="large-12 columns">
-        <script type="application/x-moraso" src="Navigation:main"></script>
-    </div>
-</div>
+<!-- default -->
+<script type="application/x-moraso" src="Navigation:main">
+	template = main
+</script>
+<script type="application/x-moraso" src="Navigation:main">
+	template = phone
+</script>
 
-<div class="row">
-    <div class="large-12 columns">
-        <script type="application/x-moraso" src="Image:featured">
-            width = 1000
-            height = 400
-            template = featured
-        </script>
-    </div>
-</div>
-
+<div class="feature background-wide">
+<div class="gallery-detail">
+	<div class="slide-feature">
+		<div class="rslides_container" style="min-height: 100px;">
+			<script type="application/x-moraso" src="Image:Teaser">
+				template = config
+				width = config
+				height = config
+				render = config
+			</script>
+        </div><!--Slide:Container-->
+	</div><!--Slide:Feature-->
+</div>	
+</div><!--Feature-->	
