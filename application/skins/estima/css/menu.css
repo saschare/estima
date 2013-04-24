@@ -162,7 +162,7 @@
 /* Header - Mobile Menu */
 
 #header .mobile-menu {
-	background: #27221f;
+	background: #999;
 }
 
 #header #mobile-menu li {
@@ -172,7 +172,7 @@
 #header .mobile-menu .menu-down {
 	margin: 80px 0 0 0;
 	padding: 20px 0 30px 0; 
-	border-top: 1px solid rgba(255,255,255,0.1);
+	
 }
 
 #header .mobile-menu .menu-down li a {
